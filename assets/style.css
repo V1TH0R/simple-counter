@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(177, 225, 255);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 247, 255);
+    background-color: rgb(182, 246, 255);
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#buttons {
+    display: grid;
+    grid-gap: 4px;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    }
+
+#limparcss
+{
+    height: 30px;
+    width: 30px;
+}
+
+button.csscenter 
+{
+    height: 40px;
+    position: relative }
+
+button.csscenter img
+ {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 10px 57px;
+    font-size: 16pt;
+}
